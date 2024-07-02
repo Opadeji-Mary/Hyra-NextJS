@@ -1,8 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
 
-const Nav = () => {
+const Navbar2 = () => {
   return (
+    <>
     <div>
       <nav class="navbar navbar-expand-lg bg-body-tertiary bg-relative">
       <div class="container-fluid">
@@ -23,20 +24,14 @@ const Nav = () => {
         </li>
       </ul>
     </div>
-    <div class="navbar bg-body-tertiary">
-     <form class="container-fluid justify-content-start">
-      <Link href="/signup" class="btn btn-sm btn-outline-primary me-2" type="button"
-      >Sign Up
-      </Link>
-      <Link href="/login">
-      <button class="btn btn-sm btn-primary" type="button">Log In</button>
-      </Link>
-     </form>
+    <div class="">
+        <button className='btn btn-primary'>Download Now</button>
     </div>
   </div>
 </nav>
 </div>
+    </>
   )
 }
 
-export default Nav
+export default Navbar2

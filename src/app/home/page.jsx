@@ -9,8 +9,7 @@ const page = () => {
     <>
    <Nav/>
    <About/>
-    <div>page</div>
-    <Footer/>
+   <Footer/>
     </>
   )
 }
