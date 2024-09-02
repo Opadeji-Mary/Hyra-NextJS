@@ -35,7 +35,7 @@ const page = () => {
                </div>
                
                <div className="card-body col-5 ms-4 mb-5">
-                 <a href="#" class="card-link text-white">See more</a>
+                 <Link href="/Articles" class="card-link text-white">See more</Link>
                </div>
             </div>
            </div>

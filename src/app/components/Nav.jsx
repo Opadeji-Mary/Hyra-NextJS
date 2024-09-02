@@ -1,10 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
+import 'bootstrap/dist/css/bootstrap.css'
+import './nav.css'
 
 const Nav = () => {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary bg-relative">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
       <h1 class="navbar-brand text-primary">Hyra</h1>
      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,9 +24,8 @@ const Nav = () => {
           <Link href="/aboutus" className='nav-link active'>About Us</Link>
         </li>
       </ul>
-    </div>
-    <div class="navbar bg-body-tertiary">
-     <form class="container-fluid justify-content-start">
+        <div class="navbar-brand bg-body-tertiary">
+      <form class="container-fluid justify-content-start d-flex">
       <Link href="/signup" class="btn btn-sm btn-outline-primary me-2" type="button"
       >Sign Up
       </Link>
@@ -32,7 +33,8 @@ const Nav = () => {
       <button class="btn btn-sm btn-primary" type="button">Log In</button>
       </Link>
      </form>
-    </div>
+       </div>
+    </div>     
   </div>
 </nav>
 </div>
